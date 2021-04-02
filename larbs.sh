@@ -207,7 +207,7 @@ yes | sudo -u "$name" $aurhelper -S libxft-bgra-git >/dev/null 2>&1
 putgitrepo "$dotfilesrepo" "/home/$name" "$repobranch"
 rm -f "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/FUNDING.yml"
 # Create default urls file if none exists.
-[ ! -f "/home/$name/.config/newsboat/urls" ] && echo " https://www.ceskenoviny.cz/sluzby/rss/zpravy.php
+[ ! -f "/home/$name/.config/newsboat/urls" ] && echo "https://www.ceskenoviny.cz/sluzby/rss/zpravy.php
 http://lukesmith.xyz/rss.xml
 https://notrelated.libsyn.com/rss" > "/home/$name/.config/newsboat/urls"
 # make git ignore deleted LICENSE & README.md files
