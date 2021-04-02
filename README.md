@@ -1,11 +1,12 @@
-# Luke's Auto-Rice Bootstrapping Scripts (LARBS)
+# Suke's Auto-Rice Bootstrapping Scripts (LARBS)
 
 ## Installation:
 
 On an Arch-based distribution as root, run the following:
 
 ```
-curl -LO larbs.xyz/larbs.sh
+git clone github.com/jeandesuc/larbs.git
+cd larbs
 sh larbs.sh
 ```
 
