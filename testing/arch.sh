@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# holy shit luke, actually looks nice, marking this as WIP
+
 #This is a lazy script I have for auto-installing Arch.
 #It's not officially part of LARBS, but I use it for testing.
 #DO NOT RUN THIS YOURSELF because Step 1 is it reformatting /dev/sda WITHOUT confirmation,
