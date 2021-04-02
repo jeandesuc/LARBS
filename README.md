@@ -5,7 +5,7 @@
 On an Arch-based distribution as root, run the following:
 
 ```
-git clone github.com/jeandesuc/larbs.git
+git clone https://github.com/jeandesuc/larbs.git
 cd larbs
 sh larbs.sh
 ```
